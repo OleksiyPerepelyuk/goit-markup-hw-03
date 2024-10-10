@@ -127,10 +127,19 @@ a {
 /*----------------Section Hero ------------------- */
 
 .hero {
+    padding-top: 188px;
+    padding-bottom: 292px;
+    
     background-color: #2e2f42;
+    
+    
     }
 
 .hero-title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    align-items: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -140,6 +149,10 @@ a {
     }
 
 .hero-btn {
+    margin-right: auto;
+    margin-left: auto;
+    
+    align-items: center;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -157,10 +170,18 @@ a {
 /*---------------- FEATURES------------------- */
 
 .features {
+   
+}
 
+.features-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .features-subtitle {
+    padding-top: 120px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -169,6 +190,7 @@ a {
 }
 
 .features-item-text {
+    padding-bottom: 120px;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -182,14 +204,20 @@ a {
 }
 
 .team-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
     background-color: #FFFFFF;
     }
 
 .team-item {
+    
     background-color: #FFFFFF;
     }
 
 .team-title {
+    padding-top: 120px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -200,6 +228,8 @@ a {
 }
 
 .team-name {
+    margin-top: 32px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -209,6 +239,7 @@ a {
 }
 
 .team-item-text {
+    padding-bottom: 152px;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
