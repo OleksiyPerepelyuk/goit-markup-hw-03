@@ -45,6 +45,10 @@ a {
     overflow: hidden;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*---------------- HEADER ------------------- */
 
 
@@ -129,30 +133,28 @@ a {
 .hero {
     padding-top: 188px;
     padding-bottom: 292px;
-    
     background-color: #2e2f42;
-    
-    
     }
 
 .hero-title {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
-    align-items: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
     }
 
 .hero-btn {
-    margin-right: auto;
-    margin-left: auto;
-    
-    align-items: center;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -171,6 +173,10 @@ a {
 
 .features {
    
+}
+
+.features-item{
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-list {
@@ -206,12 +212,12 @@ a {
 .team-list {
     display: flex;
     align-items: center;
-    gap: 40px;
-    background-color: #FFFFFF;
-    }
+    gap: 24px;
+    padding-bottom: 120px;
+}
 
 .team-item {
-    
+    align-items: center;
     background-color: #FFFFFF;
     }
 
@@ -238,8 +244,9 @@ a {
     color: #2e2f42;
 }
 
+
 .team-item-text {
-    padding-bottom: 152px;
+    padding-bottom: 32px;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -249,6 +256,8 @@ a {
 
 /*---------------- Portfolio ------------------- */
 .portfolio-title {
+    padding-top: 120px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -264,6 +273,8 @@ a {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 32px 0 8px;
+    padding-left: 16px;
 }
 
 .portfolio-item-text {
@@ -271,9 +282,15 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    width: 1128px;
     background-color: #FFFFFF;
     }
 /*---------------- FOOTER ------------------- */
@@ -286,6 +303,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
     }
 
 .footer-logo .logo-part {
@@ -293,10 +312,13 @@ a {
 }
 
 .page-footer {
-background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2e2f42;
 }
 
 .page-footer-text {
+    max-width: 264px;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
